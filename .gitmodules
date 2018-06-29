@@ -1,0 +1,6 @@
+[submodule "Mainroad"]
+	path = Mainroad
+	url = git@github.com:Vimux/Mainroad.git
+[submodule "themes/Mainroad"]
+	path = themes/Mainroad
+	url = git@github.com:Vimux/Mainroad.git
