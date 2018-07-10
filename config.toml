@@ -1,3 +1,37 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "/"
+title = "Philtest"
+languageCode = "ja-jp"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+hasCJKLanguage = true # 記事のサマリー機能を有効にする。trueにしないと記事サマリーの文章量が大きくなりすぎる。
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[permalinks]
+	post = "/:year/:month/:day/:filename/"
+	code = "/:filename/"
+
+[Author]
+    name = "フィリピンbot"
+    bio = "フィリピンbot's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    avatar = "img/avatar.png"
+
+
+[Params]
+    subtitle = "Story of Philippines" # Subtitle of your site
+    description = "フィリピンbot's Personal blog about everything" # Description of your site
+    opengraph = true
+    twitter_cards = false
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+    postSections = ["post"]
+
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent arcticles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
